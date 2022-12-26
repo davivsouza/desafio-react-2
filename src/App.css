@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background: #111;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  cursor: pointer;
+}
+
+.clicks-div{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+button{
+  margin-top: 20px;
+  position: absolute;
+  z-index: 111111;
+  cursor: pointer;
+  display: inline;
+  background: none;
+  color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-left: 10px;
+  width: 100px;
+  text-transform: capitalize;
+}
+
+button + button{
+  left: 100px;
+  margin-left: 30px;
+}
