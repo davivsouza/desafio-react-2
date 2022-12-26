@@ -4,7 +4,7 @@ function App() {
   const [clicks, setClicks] = useState([])
   const [lastDots, setLastDots] = useState([])
 
-  const colors = ['red', 'blue', 'green', 'purple', 'yellow', 'white']
+  const colors = ['#A63D40', '#E9B872', '#90A959', '#22AED1', '#8A84E2', '#CAB6CD']
 
   function handleUndo() {
     const dots = [...clicks]
